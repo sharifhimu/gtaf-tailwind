@@ -1,0 +1,24 @@
+
+.downsidebar{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .midscreen{
+        display: none;
+    }
+}
+
+@media (max-width: 390px) {
+    .downsidebar{
+        display: flex;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .mobilescreen{
+        display: none;
+    }
+}
