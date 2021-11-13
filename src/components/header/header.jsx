@@ -16,7 +16,7 @@ const header = () => {
             <IoMdArrowDropdown/>
             </div>
 
-            <div className="lg:flex  mobilescreen  justify-center flex-1   ">
+            <div className="lg:flex xs:hidden  justify-center flex-1   ">
             <div className="relative w-full mr-6 text-gray-500">
                 <div className="absolute inset-y-0 flex items-center pl-2">
                 {/* <SearchIcon className="w-4 h-4" aria-hidden="true" /> */}
